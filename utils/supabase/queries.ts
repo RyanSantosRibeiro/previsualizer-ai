@@ -1,4 +1,4 @@
-import { WalletData } from '@/contexts/WalletContext';
+
 import { SupabaseClient } from '@supabase/supabase-js';
 import { cache } from 'react';
 
@@ -42,7 +42,7 @@ export const getUserDetails = cache(async (supabase: SupabaseClient) => {
 });
 
 
-export const getUserByWallet = async (wallet: WalletData) => {
+export const getUserByWallet = async (wallet: any) => {
   try {
       console.log({walletP: wallet})
       const response = await fetch(`/api/connect`, {

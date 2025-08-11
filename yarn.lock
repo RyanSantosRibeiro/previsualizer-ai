@@ -28,6 +28,11 @@
     "@dfinity/cbor" "^0.2.2"
     "@noble/curves" "^1.9.2"
 
+"@dfinity/candid@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@dfinity/candid/-/candid-3.2.0.tgz#9c0dd65904476a52710e0a4a9f304ff3bb334fcf"
+  integrity sha512-HbyXp1QGHU/xa2lBSL9GjoHFAGbPiFrgJwabK0/VZzrcjQPKjv7G/krMKCIMm4pfaGl3ChWan9FyV9Ax/an3/g==
+
 "@dfinity/cbor@^0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@dfinity/cbor/-/cbor-0.2.2.tgz#4f31f4f0c1aeb0c8179edd99625180a76a5b43e0"
@@ -37,6 +42,13 @@
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@dfinity/identity/-/identity-3.2.0.tgz#8b2be2540800b82a4d5102f19ac191047d841c94"
   integrity sha512-sZ4130KIxcqguK1heS+BPHCdN8Pnaisz6qYJoI+mEH3g7EmE8l/5GlxlZHmhX12KMloHIDd5UFHBSXlLL96vJw==
+
+"@dfinity/principal@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@dfinity/principal/-/principal-3.2.0.tgz#872a960736adace27cf7cf955a1e5488376baf75"
+  integrity sha512-2VY3dLKLCxiZdJmgj+5LPZxb5DeJ0EJABUXGeYitAx6EikRpNYnpZUOXpb6TjPOUT67AednA7aLAP6xnXNV3nA==
+  dependencies:
+    "@noble/hashes" "^1.8.0"
 
 "@emnapi/core@^1.4.3":
   version "1.4.5"
@@ -289,7 +301,7 @@
   dependencies:
     "@noble/hashes" "1.8.0"
 
-"@noble/hashes@1.8.0":
+"@noble/hashes@1.8.0", "@noble/hashes@^1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.8.0.tgz#cee43d801fcef9644b11b8194857695acd5f815a"
   integrity sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A==
